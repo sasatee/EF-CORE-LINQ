@@ -1,0 +1,2 @@
+DOTNET CLI SCAFFOLD WITH GML: POSTGRES data adapter:
+dotnet ef dbcontext scaffold "Host=18.195.254.94;Port=5433;Username=postgres;Password=gmlPortal2024*prod;Database=gmlportaldb;SearchPath=public" Npgsql.EntityFrameworkCore.PostgreSQL --output-dir ScaffoldModelsGML --context-dir ScaffoldContextGML --context GmlPortalDbContext --force
